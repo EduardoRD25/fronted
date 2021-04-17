@@ -1,0 +1,14 @@
+package com.cibertec.entity;
+import java.io.Serializable;
+import java.util.Date;
+
+public class Servicio implements Serializable {
+	
+	private int cod_ser;
+	private String nom_ser;
+	private String pre_ser;
+	private String desc_ser;
+	private String horio_ser;
+	private Date fec_ser;
+	
+}

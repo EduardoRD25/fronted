@@ -1,0 +1,53 @@
+package com.cibertec.entity;
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+public class Cliente implements Serializable {
+	private int codMedicamento;
+	private String nomMedicamento;
+	private int stockMedicamento;
+	private double precioMedicamento;
+	//@JsonFormat(pattern = "yyyy-MM-dd")
+	//private Date fechaMedicamento;
+	private String fechaMedicamento;
+	private Laboratorio laboratorio;
+	public int getCodMedicamento() {
+		return codMedicamento;
+	}
+	public void setCodMedicamento(int codMedicamento) {
+		this.codMedicamento = codMedicamento;
+	}
+	public String getNomMedicamento() {
+		return nomMedicamento;
+	}
+	public void setNomMedicamento(String nomMedicamento) {
+		this.nomMedicamento = nomMedicamento;
+	}
+	public int getStockMedicamento() {
+		return stockMedicamento;
+	}
+	public void setStockMedicamento(int stockMedicamento) {
+		this.stockMedicamento = stockMedicamento;
+	}
+	public double getPrecioMedicamento() {
+		return precioMedicamento;
+	}
+	public void setPrecioMedicamento(double precioMedicamento) {
+		this.precioMedicamento = precioMedicamento;
+	}
+	public String getFechaMedicamento() {
+		return fechaMedicamento;
+	}
+	public void setFechaMedicamento(String fechaMedicamento) {
+		this.fechaMedicamento = fechaMedicamento;
+	}
+	public Laboratorio getLaboratorio() {
+		return laboratorio;
+	}
+	public void setLaboratorio(Laboratorio laboratorio) {
+		this.laboratorio = laboratorio;
+	}
+	
+}

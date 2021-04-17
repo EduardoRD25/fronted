@@ -1,0 +1,22 @@
+package com.cibertec.entity;
+import java.io.Serializable;
+public class Distrito implements Serializable{
+	private int codLaboratorio;
+	private String desLaboratorio;
+	public int getCodLaboratorio() {
+		return codLaboratorio;
+	}
+	public void setCodLaboratorio(int codLaboratorio) {
+		this.codLaboratorio = codLaboratorio;
+	}
+	public String getDesLaboratorio() {
+		return desLaboratorio;
+	}
+	public void setDesLaboratorio(String desLaboratorio) {
+		this.desLaboratorio = desLaboratorio;
+	}
+
+}
+
+
+

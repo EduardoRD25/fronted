@@ -1,0 +1,17 @@
+package com.cibertec.entity;
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+public class Cliente implements Serializable {
+	
+	private int cod_cli;
+	private String nom_cli;
+	private String ape_cli;
+	private String dni_cli;
+	private String sexo_cli;
+	private Distrito distrito;
+	
+	
+}

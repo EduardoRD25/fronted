@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\PC\Desktop\vx\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\162031006.index
+\Sesion04\src\main\java
+C:\Users\PC\Desktop\vx\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1647582072.index
+\WS_Cliente_REST\src\main\java
+C:\Users\PC\Desktop\Frontend\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1647582072.index
+\WS_Cliente_REST\src\main\java
+C:\Users\PC\Desktop\vx\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2378047477.index
+\WS_REST_Servidor\src
+C:\Users\PC\Desktop\Frontend\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3623668767.index
+\Veterinaria-Master\src\main\java
